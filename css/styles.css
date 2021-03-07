@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: hsl(185, 75%, 39%);
+
+
+}
+
+section{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  visibility: hidden;
+}
