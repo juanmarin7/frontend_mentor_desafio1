@@ -1,19 +1,40 @@
+@import url(https://fonts.google.com/specimen/Kumbh+Sans);
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+hr{
+  width: 280px;
+  background-color: black;
+  color: aqua;
+}
+html{
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+}
 body{
   background: hsl(185, 75%, 39%);
 
 
 }
 
-section{
-  position: relative;
-  justify-content: center;
-  align-items: center;
+.tarjeta{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
-  visibility: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  background-color: white;
+}
+
+.t_fondo{
+ 
+  float: right;
 }
